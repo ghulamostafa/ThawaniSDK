@@ -17,7 +17,8 @@ namespace ThawaniPaySDK.Models.CheckoutModels
         public string payment_status { get; internal set; }
         public string mode { get; internal set; }
         public string invoice { get; internal set; }
-        public Dictionary<string, string> metadata { get; internal set; }
+        //public Dictionary<string, string> metadata { get; internal set; }
+        public MetadataModel metadata { get; internal set; }
         public DateTime created_at { get; internal set; }
         public DateTime expire_at { get; internal set; }
         public object subscription { get; internal set; }

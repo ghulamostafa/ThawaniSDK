@@ -1,5 +1,6 @@
 ﻿using RestSharp;
 using RestSharp.Serialization.Json;
+using System;
 using ThawaniPaySDK.Models.PaymentIntentModels;
 
 namespace ThawaniPaySDK
@@ -21,6 +22,33 @@ namespace ThawaniPaySDK
 
         public CreatePaymentIntentReponseModel CreatePaymentIntent(CreatePaymentIntentRequestModel request)
         {
+            if (request.metadata == null)
+            {
+                throw new ArgumentException("Metadata is required");
+            }
+            else
+            {
+                if (String.IsNullOrEmpty(request.metadata.customer_name))
+                {
+                    throw new ArgumentException("Customer name is required.");
+                }
+                if (String.IsNullOrEmpty(request.metadata.customer_email))
+                {
+                    throw new ArgumentException("Customer email is required.");
+                }
+                else
+                {
+                    var addr = new System.Net.Mail.MailAddress(request.metadata.customer_email);
+                    if (addr.Address != request.metadata.customer_email)
+                    {
+                        throw new ArgumentException("Customer email is invalid.");
+                    }
+                }
+                if (String.IsNullOrEmpty(request.metadata.customer_phone))
+                {
+                    throw new ArgumentException("Customer phone is required.");
+                }
+            }
             var restClient = new RestClient(urls.PaymentIntent);
             var restRequest = PrivateUtility.PostRequest(request, apiKey);
             var json = new JsonDeserializer().Deserialize<CreatePaymentIntentReponseModel>(restClient.Execute(restRequest));

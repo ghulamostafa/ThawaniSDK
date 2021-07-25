@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ThawaniPaySDK.Models.CommonModels;
 
 namespace ThawaniPaySDK.Models.PaymentIntentModels
 {
@@ -8,6 +9,7 @@ namespace ThawaniPaySDK.Models.PaymentIntentModels
         public int amount { get; set; }
         public string client_reference_id { get; set; }
         public string return_url { get; set; }
-        public Dictionary<string, string> metadata { get; set; }
+        //public Dictionary<string, string> metadata { get; set; }
+        public MetadataModel metadata { get; set; }
     }
 }

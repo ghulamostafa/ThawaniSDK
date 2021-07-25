@@ -13,7 +13,8 @@ namespace ThawaniPaySDK.Models.PaymentIntentModels
         public string payment_method { get; internal set; }
         public NextAction next_action { get; internal set; }
         public string status { get; internal set; }
-        public Dictionary<string, string> metadata { get; internal set; }
+        //public Dictionary<string, string> metadata { get; internal set; }
+        public MetadataModel metadata { get; internal set; }
         public DateTime created_at { get; internal set; }
         public DateTime expire_at { get; internal set; }
     }
