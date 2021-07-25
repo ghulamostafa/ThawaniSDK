@@ -28,11 +28,14 @@ var sessionModel = new ThawaniPaySDK.Models.CheckoutModels.CheckoutSessionCreate
     client_reference_id = "",
     customer_id = "", //If you have a customer id, the customer can save their cards. We will see how you can initiate a payment intent using a saved card
     products = products,
-    metadata = new Dictionary<string, string>()
+    metadata = new ThawaniPaySDK.Models.CommonModels.MetadataModel()
     {
-        { "PhoneNumber", "+96812345678" },
-        { "Email", "example@domain.com" }
-    },
+        customer_email = "example@domain.com", //Mandatory
+        customer_name = "Customer Name", //Mandatory
+        customer_phone = "968 12345678", //Mandatory
+        customer_id = "", //Optional
+        order_id = "" //Optional
+    }
 };
 
 var sessionInfo = checkout.CreateSession(sessionModel);
@@ -72,10 +75,13 @@ var paymentIntentModel = paymentIntent.CreatePaymentIntent(new ThawaniPaySDK.Mod
 {
     amount = 100,
     client_reference_id = "", //The Customer Id
-    metadata = new Dictionary<string, string>()
+    metadata = new ThawaniPaySDK.Models.CommonModels.MetadataModel()
     {
-        { "PhoneNumber", "+96812345678" },
-        { "Email", "example@domain.com" }
+        customer_email = "example@domain.com", //Mandatory
+        customer_name = "Customer Name", //Mandatory
+        customer_phone = "968 12345678", //Mandatory
+        customer_id = "", //Optional
+        order_id = "" //Optional
     },
     payment_method_id = "", //The Card Id saved at Thawani
     return_url = "https://domain.com/returnURL"
