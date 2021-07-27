@@ -1,0 +1,12 @@
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\bin\Debug\net5.0\ThawaniPaySDK.deps.json
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\bin\Debug\net5.0\ThawaniPaySDK.dll
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\bin\Debug\net5.0\ref\ThawaniPaySDK.dll
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\bin\Debug\net5.0\ThawaniPaySDK.pdb
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\obj\Debug\net5.0\ThawaniPaySDK.csproj.AssemblyReference.cache
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\obj\Debug\net5.0\ThawaniPaySDK.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\obj\Debug\net5.0\ThawaniPaySDK.AssemblyInfoInputs.cache
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\obj\Debug\net5.0\ThawaniPaySDK.AssemblyInfo.cs
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\obj\Debug\net5.0\ThawaniPaySDK.csproj.CoreCompileInputs.cache
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\obj\Debug\net5.0\ThawaniPaySDK.dll
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\obj\Debug\net5.0\ref\ThawaniPaySDK.dll
+D:\Projects\Visual Studio\ThawaniPaySDK Other\ThawaniSDK\ThawaniPaySDK\obj\Debug\net5.0\ThawaniPaySDK.pdb
