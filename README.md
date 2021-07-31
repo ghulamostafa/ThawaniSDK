@@ -1,4 +1,4 @@
-# ThawaniSDK (.NET)
+# ThawaniSDK (.NET) (.NET 5 / .NET Core)
 
 You can download the package from Nuget by [clicking here](https://www.nuget.org/packages/ThawaniPaySDK/).
 
