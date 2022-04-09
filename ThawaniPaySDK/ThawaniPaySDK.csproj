@@ -8,7 +8,6 @@
     <Description>This is an unofficial SDK for connecting Thawani Pay in your .NET application.</Description>
     <PackageTags>Thawani, Payment, Oman, Omannet</PackageTags>
     <RepositoryUrl>https://github.com/ghulamostafa/ThawaniSDK</RepositoryUrl>
-    <PackageIcon>thawani_icon.jpg</PackageIcon>
     <PackageIconUrl />
     <PackageReleaseNotes>RESTSharp updated to the stable version.</PackageReleaseNotes>
     <PackageProjectUrl>https://ghulamustafa.com</PackageProjectUrl>
