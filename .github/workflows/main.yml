@@ -1,9 +1,6 @@
 name: 'Deploy to Nuget.org'
 
-on:
- push:
-  tags:
-   - '*'
+on: ["push"]
 
 env:
  PROJECT_PATH: 'ThawaniPaySDK/ThawaniPaySDK.csproj'
