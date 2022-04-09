@@ -1,4 +1,4 @@
-name: 'Deploy to Nuget.org V2'
+name: 'Deploy to Nuget.org'
 
 on:
  push:
