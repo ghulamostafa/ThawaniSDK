@@ -23,7 +23,6 @@ namespace ThawaniPaySDK.Models.CheckoutModels
         [JsonPropertyName("plan_id")]
         public string plan_id { get; set; }
         [JsonPropertyName("metadata")]
-        //public Dictionary<string, string> metadata { get; set; }
         public MetadataModel metadata { get; set; }
     }
 }
